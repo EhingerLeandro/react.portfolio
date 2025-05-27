@@ -63,8 +63,8 @@ const About = () => {
             <img src="https://avatars.githubusercontent.com/u/96314095?v=4" className="w-32 h-32 rounded-full mb-6 mx-auto grayscale-25" alt="Leandro Dev" />
             <div className="rounded-xl p-8 border-white/10 border transition-all
             hover:-translate-y-1">
-                <p className="text-gray-400 mb-6">
-                    I'm dedicated Front-end developer with proficient skills in HTML, CSS, JavaScript and React.
+                <p className="text-gray-400 mb-6 text-center">
+                   My name is Ehinger Leandro Echeverri López, I'm a dedicated Front-End Developer from Colombia with strong skills in HTML, CSS, JavaScript, and React. This portfolio was built using Tailwind CSS, reflecting my dedication for clean and responsive design.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -132,7 +132,10 @@ const About = () => {
                                     <strong>Web Developer Diploma Mintic 2022</strong>
                                 </li>
                                 <li className="list-disc list-inside text-gray-400 mb-4 space-y-2 text-sm">
-                                    <strong>Jamestown English Center B2 Level</strong>
+                                    <strong>Jamestown English Center Level B2</strong>
+                                </li>
+                                <li className="list-disc list-inside text-gray-400 mb-4 space-y-2 text-sm">
+                                    <strong>I graduated with a degree in Economics </strong>
                                 </li>
                             </ul>
                 </div>

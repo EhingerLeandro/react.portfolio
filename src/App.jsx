@@ -25,6 +25,9 @@ function App() {
       <About />
       <Projects/>
       <Contact/>
+      <div className="relative bottom-0 left-0 w-full bg-gray-900 text-gray-400 text-center py-4">
+        <p className="text-sm"> Created with TailwindCSS / © 2025 Leandro Dev</p>
+      </div>
     </>
   )
 }
