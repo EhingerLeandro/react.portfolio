@@ -1,6 +1,9 @@
 import React from 'react';
 import {useEffect} from "react";
 
+import github from "../assets/icons/github.png";
+import linkedin from "../assets/icons/linkedin.png";
+
 const Navbar = ({menuOpen, setMenuOpen}) => {
 
     useEffect(()=>{
@@ -28,13 +31,22 @@ const Navbar = ({menuOpen, setMenuOpen}) => {
                     hover:text-white transition-colors">
                         {" "}About{" "}
                     </a>
+                     <a href="#projects" className="text-gray-300 
+                    hover:text-white transition-colors">
+                        {" "}Projects{" "}
+                    </a>
                     <a href="#contact" className="text-gray-300 
                     hover:text-white transition-colors">
                         {" "}Contact{" "}
                     </a>
-                    <a href="#projects" className="text-gray-300 
+                    <a href="https://github.com/EhingerLeandro" target="blank" className="text-gray-300 
                     hover:text-white transition-colors">
-                        {" "}Projects{" "}
+                        <img src={github} alt="github" className="w-5 h-5" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/ehinger-leandro-echeverri-l%C3%B3pez-623798228/" target="blank" className="text-gray-300 
+                    hover:text-white transition-colors">
+                       
+                        <img src={linkedin} alt="linkedin" className="w-5 h-5" />
                     </a>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 # React Portfolio Developer
-Here is my protfolio website made with ReactJS
+Here is my portfolio website made with ReactJS.
 
 ## Tech Stack
 - ReactJS
