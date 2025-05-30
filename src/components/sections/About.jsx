@@ -64,7 +64,7 @@ const About = () => {
             <div className="rounded-xl p-8 border-white/10 border transition-all
             hover:-translate-y-1">
                 <p className="text-gray-400 mb-6 text-center">
-                   My name is Ehinger Leandro Echeverri López, I'm a dedicated Front-End Developer from Colombia with strong skills in HTML, CSS, JavaScript, and React. This portfolio was built using Tailwind CSS, reflecting my dedication for clean and responsive design.
+                   My complete name is Ehinger Leandro Echeverri López, I'm a dedicated Front-End Developer from Colombia with strong skills in HTML, CSS, JavaScript, and React. This portfolio was built using Tailwind CSS, reflecting my dedication for clean and responsive design.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -135,7 +135,7 @@ const About = () => {
                                     <strong>Jamestown English Center Level B2</strong>
                                 </li>
                                 <li className="list-disc list-inside text-gray-400 mb-4 space-y-2 text-sm">
-                                    <strong>I graduated with a degree in Economics </strong>
+                                    <strong>Graduated with a degree in Economics </strong>
                                 </li>
                             </ul>
                 </div>

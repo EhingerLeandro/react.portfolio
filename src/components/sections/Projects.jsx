@@ -13,6 +13,7 @@ import api from "../../assets/icons/api.png";
 import tyepscript from "../../assets/icons/typescript.png";
 import materials from "../../assets/icons/materials.png";
 import firebase from "../../assets/icons/firebase.png";
+import wordpress from "../../assets/icons/wordpress.png"
 
 const weatherApp =[
     {tech:"React", icon: react},
@@ -20,7 +21,6 @@ const weatherApp =[
     {tech:"Vite", icon: vite},
     {tech:"GeoDB Cities API", icon: api}
 ]
-
 const quizApp = [
     {tech:"React", icon: react},
     {tech:"TypeScript", icon: tyepscript}, 
@@ -28,13 +28,11 @@ const quizApp = [
     {tech:"Zustand", icon: zustand},
     {tech:"Vite", icon: vite},
 ]
-
 const ecomerceApp = [
     {tech:"React", icon: react},
     {tech:"bootstrap", icon: bootstrap},
     {tech:"firebase", icon: firebase}
 ]
-
 const crudApp = [
     {tech:"React", icon: react},
     {tech:"bootstrap", icon: bootstrap},
@@ -143,7 +141,31 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
+                <div className='rounded-xl p-8 border-white/10 border rounded transition-all
+                hover:-translate-y-1 gap-2 mt-4'>
+                    <h3 className="text-xl font-bold mb-4">Landing Page with Wordpress</h3>
+                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-sm ">
+                    This website was created for a company that distributes vehicle paints, it uses Wordpress, 
+                    and more specifically the "Astra" Plugin.
+                    
+                    </p>
+                    {[{tech:"Wordpress", icon: wordpress}].map((item, index)=>(
+                        <span className="bg-blue-500/10 text-blue-500 mb-1 mr-1 py-1 px-3 rounded-full text-sm 
+                        transition-all hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(60,130,245,0.1)] inline-block"  
+                        key={index}>
+                            {item.tech}
+                            <img src={item.icon} alt={item.tech} className="inline-block ml-2 w-4 h-4 rounded" />
+                        </span>
+                    ))} 
+                    <div className="mt-4">
+                        <a href="https://pinturasdelmeta.com" target="_blank"
+                        className="text-blue-400 hover:text-blue-300 transition-colors">
+                            View Project &#8594; 
+                        </a>
+                </div>
             </div>
+            </div>
+            
         </div>
         </RevealOnScroll>
     </section>
